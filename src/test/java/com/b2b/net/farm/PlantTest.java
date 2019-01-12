@@ -6,10 +6,10 @@ import static org.junit.Assert.*;
 
 public class PlantTest {
 
-    private Plant tomato = new Plant();
-    private Plant carrot = new Plant();
-    private Plant strawberry = new Plant();
-    private Plant banana = new Plant();
+    private Plant tomato = new Plant("Pomidor", 6.0, "red", false, true);
+    private Plant carrot = new Plant("Marchewka", 15.0, "red", false, true);
+    private Plant strawberry = new Plant("Truskawka", 2.0, "red", true, false);
+    private Plant banana = new Plant("Banan", 10.0, "yellow", true, false);
 
     @Test
     public void isFruit() {
