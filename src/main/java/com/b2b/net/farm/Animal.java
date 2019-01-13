@@ -19,23 +19,28 @@ public class Animal {
         this.isFarm = isFarm;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public String getSound() {
+    public String getSound()
+    {
         return sound;
     }
 
-    public void setSound(String sound) {
+    public void setSound(String sound)
+    {
         this.sound = sound;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return age;
     }
 
