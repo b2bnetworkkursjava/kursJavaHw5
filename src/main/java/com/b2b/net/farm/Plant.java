@@ -8,45 +8,39 @@ public class Plant {
     private boolean isFruit;
     private boolean isVegetable;
 
+    public Plant (String name, double size, String color, boolean isFruit, boolean isVegetable){
+        this.name=name;
+        this.size=size;
+        this.color=color;
+        this.isFruit=isFruit;
+        this.isVegetable=isVegetable;
+    }
+
 
 
     public String getName() {
-        return "";
+        return name;
     }
 
-    public void setName() {
-
-    }
+    public void setName(String name) { this.name=name; }
 
     public double getSize() {
-        return 0.0;
+        return size;
     }
 
-    public void setSize() {
+    public void setSize(double size) { this.size=size;}
 
-    }
+    public String getColor() { return color; }
 
-    public String getColor() {
-        return "";
-    }
+    public void setColor(String color) { this.color=color; }
 
-    public void setColor() {
+    public boolean isFruit() { return isFruit; }
 
-    }
-
-    public boolean isFruit() {
-        return true;
-    }
-
-    public void setFruit() {
-
-    }
+    public void setFruit(boolean isFruit) { this.isFruit=isFruit; }
 
     public boolean isVegetable() {
-        return false;
+        return isVegetable;
     }
 
-    public void setVegetable() {
-
-    }
+    public void setVegetable(boolean isFruits) { this.isVegetable=isVegetable; }
 }
