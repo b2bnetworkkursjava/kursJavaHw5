@@ -8,38 +8,27 @@ public class Farmer {
     private double sizeOfFarm;
 
     public Farmer(String farmName, boolean hasAnimals, boolean hasPlants, double sizeOfFarm) {
+        this.farmName = farmName;
+        this.hasAnimals = hasAnimals;
+        this.hasPlants = hasPlants;
+        this.sizeOfFarm = sizeOfFarm;
 
     }
 
     public String getFarmName() {
-        return "";
+        return farmName;
     }
 
-    public void setFarmName(String farmName) {
+    public void setFarmName(String farmName) { this.farmName = farmName; }
 
-    }
+    public boolean isHasAnimals() { return hasAnimals;}
+        public void setHasAnimals(boolean hasAnimals) { this.hasAnimals = hasAnimals; }
 
-    public boolean isHasAnimals() {
-        return false;
-    }
+    public boolean isHasPlants() {return hasPlants;}
 
-    public void setHasAnimals(boolean hasAnimals) {
+    public void setHasPlants(boolean hasPlants) { this.hasPlants = hasPlants; }
 
-    }
+    public double getSizeOfFarm() { return sizeOfFarm;}
 
-    public boolean isHasPlants() {
-        return true;
-    }
-
-    public void setHasPlants(boolean hasPlants) {
-
-    }
-
-    public double getSizeOfFarm() {
-        return 0.0;
-    }
-
-    public void setSizeOfFarm(double sizeOfFarm) {
-
-    }
+    public void setSizeOfFarm(double sizeOfFarm) { this.sizeOfFarm = sizeOfFarm; }
 }
