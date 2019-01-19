@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 
 public class FarmerTest {
 
-    private Farmer donald;
-    private Farmer daisy;
+    private Farmer donald = new Farmer("donald",true,false,140);
+    private Farmer daisy = new Farmer("daisy",false,true,220);
 
     /**
     Farma jest duza, kiedy jej rozmiar jest wiekszy od 200,
