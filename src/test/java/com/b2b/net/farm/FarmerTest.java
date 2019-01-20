@@ -6,12 +6,12 @@ import static org.junit.Assert.*;
 
 public class FarmerTest {
 
-    private Farmer donald;
-    private Farmer daisy;
+    private Farmer donald = new Farmer("Donald", true, true, 100.0);
+    private Farmer daisy = new Farmer("Daisy", true, true, 300.0);
 
     /**
-    Farma jest duza, kiedy jej rozmiar jest wiekszy od 200,
-    mala kiedy rozmiar jest mniejszy niz 200.
+     * Farma jest duza, kiedy jej rozmiar jest wiekszy od 200,
+     * mala kiedy rozmiar jest mniejszy niz 200.
      */
 
     @Test
